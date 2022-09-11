@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>May You Rest In Fire</title>
+		<style>
+			html,body {
+				height: 100%;
+                background-color: black;
+			}
+            h1 {
+                color: white;
+                text-align: center;
+            }
+			.wrapper {
+				display: grid;
+				place-items: center;
+				height: 100%;
+				margin-top: 34%;
+                color: white
+			}
+			.myriff {
+				position: relative;
+				width: 350px;
+			}
+			pre {     
+				margin: -16px;
+				white-space: break-spaces;
+			}
+		</style>
+    </head>
+    <body>
+        <a href="https://mayyourestinfire.surge.sh/myrif">
+            <h1>
+            MAYYOURESTINFIRE
+            </h1>
+        </a>
+		<div class="wrapper">
+			<p> </p>
+			<div class="myriff">
+				<pre>
+                May You Rest In Fire
+				</pre>
+				<pre id="myrif">
+                May You Rest In Fire
+                May You Rest In Fire
+                May You Rest In Fire
+                May You Rest In Fire
+                May You Rest In Fire
+                May You Rest In Fire
+                May You Rest In Fire
+                May You Rest In Fire
+                May You Rest In Fire<!--
+                !I NEVER FORGOT!
+                https://youtu.be/r5g26MD1IO0
+                ?DOES HE REALLY HAVE TO KNOW?
+                -->
+                May You Rest In Fire
+                May You Rest In Fire
+                May You Rest In Fire
+                May You Rest In Fire
+                May You Rest In Fire
+                May You Rest In Fire
+                May You Rest In Fire
+                May You Rest In Fire
+                May You Rest In Fire
+                May You Rest In Fire
+                May You Rest In Fire
+				</pre>
+			</div>
+		</div>
+
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+		<script>
+			$(window).scroll(function () {
+				if ($(document).height() - $(this).height() == $(this).scrollTop()) {
+					$("#myrif").clone().appendTo(".myriff");
+				}
+			}); 
+		</script>
+    </body>
+</html>
